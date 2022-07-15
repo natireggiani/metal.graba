@@ -87,12 +87,11 @@ nav{
 /* ICONS */
 .icons{
     /* border:1px solid red; */
-    width: 20px;
-    margin-left: 1150px;
+    width: 95vw;
     height: 100px;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
+    align-items: flex-end;
     justify-content:space-between;
     margin-bottom: 200px;
     position: fixed;
