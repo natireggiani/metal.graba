@@ -142,16 +142,18 @@ nav{
     font-size: 32px;
     line-height: 37.5px;
     color: rgba(0, 0, 0, 1);
-    margin-left: 26px;
+    margin-left: 20px;
     margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .texto-index-card{
-    margin-left: 26px;
+    margin-left: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
     color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .ver-mas{
