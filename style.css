@@ -54,6 +54,7 @@ nav{
     
 }
 
+
 .ul-nav a{
     text-decoration: none;
     color:rgba(199, 194, 194, 1);
@@ -64,6 +65,15 @@ nav{
     margin-top: 10px;
 }
 
+.menu {
+    display: none;
+}
+
+.menu i{
+    margin-top: 25px;
+    margin-right: 30px;
+    color:rgba(224, 2, 9, 1);
+}
 
 .boton-nav{
     background-color: rgba(224, 2, 9, 1);
