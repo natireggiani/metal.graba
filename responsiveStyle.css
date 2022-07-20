@@ -22,6 +22,18 @@
 .ul-nav a{
     font-size: 10px;
     } 
+
+.nav-pages_black{
+    background-color: rgba(0,0,0,1);
+    height: 285px;
+    color:rgba(199, 194, 194, 1);
+    padding-bottom: 20px;
+}
+
+.submenu{
+    font-size: 10px;
+    width: 80px;
+}
     
 .boton-nav{
     height: 20px;
@@ -61,6 +73,10 @@
     font-size: 25px;
 }
 
+.index-card:hover{
+    transform: scale(1);
+}
+
     
 }
 
@@ -68,6 +84,18 @@
 
 @media (min-width: 601px) and (max-width: 1000px){
 
+
+.nav-pages_black{
+    background-color: rgba(0,0,0,1);
+    height: 285px;
+    color:rgba(199, 194, 194, 1);
+    padding-bottom: 20px;
+}
+
+.submenu{
+    width: 80px;
+    font-size: 10px;
+}
 
 .none{
     display: none;
