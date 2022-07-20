@@ -103,8 +103,7 @@ nav{
 }
 
 .color{
-    color:rgba(224, 2, 9, 1);
-    
+    color:rgba(224, 2, 9, 1) !important;  
 }
 
 .submenu{
@@ -112,6 +111,7 @@ nav{
     color:rgba(199, 194, 194, 1);
     border: none;
     font-size: 16px;
+    width: 100px;
 }
 
 .boton-nav{
@@ -125,7 +125,13 @@ nav{
     font-size: 16px;
     margin-right: 10px;
     color:rgba(199, 194, 194, 1);
+    border: 1px solid rgba(0,0,0,1);
 }
+
+.boton-nav a:hover{
+    color:rgba(0,0,0,1);
+}
+
 
 /* FIN NAVBAR */
 
@@ -184,7 +190,7 @@ nav{
 }
 
 .index-card:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .img-index-card{

@@ -1,3 +1,6 @@
+
+//NAVBAR RESPONSIVE
+
 let menu = document.querySelector('.menu') 
 let ul = document.querySelector('#lista-menu') 
 let navPage = document.querySelector('.nav-pages')
@@ -7,18 +10,8 @@ menu.addEventListener('click', function(){
     navPage.classList.toggle('nav-pages_black');
 })
 
+//FIN NAVBAR RESPONSIVE
 
 
 
 
-let items = document.querySelectorAll('.listas')
-console.log(items)
-
-
-items.forEach(el=>{
-    el.addEventListener('click', function(e){
-        e.preventDefault();
-        items.forEach(el => el.classList.remove('color'))
-        this.classList.add('color')
-    })
-})
