@@ -78,29 +78,38 @@
 
 .titulo-general-card{
     margin-left: 50px;
-    line-height: 30px;
+    line-height: 40px;
+    width: 230px;
 }
+/* 
+.general-card-flex{
+    max-width: 85%;
+    border:1px solid red;
+    margin: 0 auto;
+    justify-content: center;
+} */
 
 
 /* .div-general-card{
     width: 300px;
     height: 465px;
-}
+} 
 
 .img-general-card{
     width: 300px;
     height: 322px;
-}
-
+}  */
+/* 
 .texto-general-card{
-    font-size: 16px;
-    width: 250px;
+    font-size: 20px;
+    width: 240px;
 }
 
 .precio-card{
     font-size: 16px;
     margin-top: 5px;
-} */
+    margin-left: 30px;
+}  */
 
     
 }
