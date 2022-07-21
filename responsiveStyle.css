@@ -77,12 +77,9 @@
 }
 
 .titulo-general-card{
-    line-height: 30px;
-    font-size: 28px;
     margin-left: 50px;
-    width: 280px;
 }
-.div-general-card{
+/* .div-general-card{
     width: 300px;
     height: 465px;
 }
@@ -100,7 +97,7 @@
 .precio-card{
     font-size: 16px;
     margin-top: 5px;
-}
+} */
 
     
 }
