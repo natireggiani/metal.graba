@@ -53,7 +53,8 @@
 }
 
 .icons{
-    width: 90vw;
+    width: 25px;
+    margin-left:80%;
 }
 
 .div-index-card{
@@ -120,7 +121,7 @@
 }
 
 .texto-servicios{
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin-top: 20px;
     width: 200px;
 }
@@ -139,7 +140,13 @@
     margin: 0 auto;
     margin-top: 30px;
 }
+.tituloFooter{
+    font-size: 20px;
+}
 
+.footerContainer p {
+    font-size: 10px;
+}
     
 }
 
@@ -216,7 +223,7 @@
 }
 
 .icons{
-    width: 95vw;
+    width: 25px;
     height: 100px;
     display: flex;
     flex-direction: column;
