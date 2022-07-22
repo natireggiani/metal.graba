@@ -52,6 +52,10 @@
     margin:0 auto;
 }
 
+.icons{
+    width: 90vw;
+}
+
 .div-index-card{
     margin:0 auto;
     justify-content: center;
@@ -110,6 +114,30 @@
     margin-top: 5px;
     margin-left: 30px;
 }  */
+
+.margen-servicios{
+    margin-top: 18px;
+}
+
+.texto-servicios{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.imagen-servicios{
+    width: 277px;
+    height: 240px;
+    margin-top: 20px;
+}
+.boton-servicios{
+    width: 200px;
+    margin: 0 auto;
+}
+.btn{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 
     
 }

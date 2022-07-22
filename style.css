@@ -301,3 +301,59 @@ nav{
 
 
 /* FIN CARDS GENERALES */
+
+/* SERVICIOS */
+.div-servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+
+
+.texto-servicios{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 18px;
+    letter-spacing: -0.011em;
+    color: #000000;
+    
+}
+
+.imagen-servicios{
+    width: 554px;
+    height: 474px;
+    margin-top: 50px;
+}
+
+.no-text{
+    color: #ffffff;
+}
+
+.boton-servicios{
+    background-color: rgba(224, 2, 9, 1);
+    height: 48px;
+    width: 252px;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    line-height: 19.36px;
+    font-size: 16px;
+    margin-left: 110px;
+    border: 1px solid rgba(0,0,0,1);
+    margin-top: 40px;
+}
+
+.boton-servicios a{
+    color:rgba(199, 194, 194, 1);
+    font-weight: 700;
+}
+
+.boton-servicios a:hover{
+    color:rgba(0,0,0,1);
+}
+
+
+/* FIN SERVICIOS */
