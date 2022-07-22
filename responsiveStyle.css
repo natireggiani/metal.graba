@@ -223,4 +223,28 @@
     position:fixed;
     top: 260px;
 }
+
+.margen-servicios{
+    margin-top: 18px;
+}
+
+.texto-servicios{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.imagen-servicios{
+    width: 184px;
+    height: 160px;
+    margin-top: 20px;
+}
+.boton-servicios{
+    width: 180px;
+    margin: 0 auto;
+}
+.btn{
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 }
