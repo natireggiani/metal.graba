@@ -3,15 +3,59 @@
 
 @media only screen and (max-width: 600px){
 
- 
+
+/* MODAL */
+
 .modal{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: auto;
     border: 1px solid black;
-    margin-left: 50px;
-    background-color: #ffffff;
+    margin-left:3%;
+    margin-top:15px;
+    background: #D9D9D9;
+    border-radius: 0px 0px 20px 20px;
     position: absolute;
 }
+
+.btn-modal{
+    width: 20px;
+    height: 20px;
+    margin-left: 90%;
+    margin-top: 24px;
+    align-content: center;
+}
+
+.title-modal{
+    width: 300px;
+    height: 28px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.text-modal{
+    width: 300px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.input1{
+    width: 300px;
+    height: 45px;
+}
+
+.input2{
+    width: 300px;
+    height: 45px;
+}
+
+.boton-modal{
+    width: 180px;  
+    margin-bottom: 10px;
+}
+
+/* FIN MODAL */
    
 
 .none{
@@ -169,6 +213,59 @@
 
 @media (min-width: 601px) and (max-width: 1000px){
 
+/* MODAL */
+
+.modal{
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    margin-left:3%;
+    margin-top:15px;
+    background: #D9D9D9;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+}
+
+.btn-modal{
+    width: 20px;
+    height: 20px;
+    margin-left: 90%;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.title-modal{
+    width: 300px;
+    height: 28px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.text-modal{
+    width: 300px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.input1{
+    width: 300px;
+    height: 45px;
+}
+
+.input2{
+    width: 300px;
+    height: 45px;
+}
+
+.boton-modal{
+    width: 180px;  
+    margin-bottom: 10px;
+}
+
+/* FIN MODAL */
+   
 
 .nav-pages_black{
     background-color: rgba(0,0,0,1);
