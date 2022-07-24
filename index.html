@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Dancing+Script&family=Inter:wght@200;400&family=MonteCarlo&family=Quicksand:wght@300&family=Raleway:wght@100;300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="renzoStyles.css">
     <link rel="stylesheet" href="responsiveStyle.css">
@@ -91,6 +92,24 @@
                     </div>   
                 </a>
             </div>
+            
+            <div class="flex border box-shadow rounded-xl w-full h-52 grid grid-cols-5 my-12">
+                <div class="col-span-2">
+                    <img src="/imagenes/emprendimiento4.png" alt="" class="h-52 w-full object-cover rounded-xl">
+                </div>
+                <div class="flex flex-col justify-center col-span-3 mx-4">
+                    <div class="ml-4"> 
+                        <h3 class="text-3xl font-bold py-1">Graba tu estilo</h3>
+                        <p class="text-2xl py-1 font-semibold">Consulta cómo podés personalizar tus productos</p>
+                        <p class="py-1">Todos los precios incluyen el grabado</p>
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="bg-red-600 py-2 px-20 rounded-3xl text-white">Consultar</button>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
     </main>
     <footer>
@@ -116,9 +135,18 @@
             </div>
             <div class="footerCol3">
                 <h3 class="tituloFooter">Contacto</h3>
-                <a href=""><i class="material-icons">location_on</i><p>Pasaje Godoy Cruz 20, Yerba Buena, Tucumán</p></a>
-                <a href=""><i class="material-icons">local_phone</i><p>3815045034</p></a>
-                <a href=""><i class="material-icons">email</i><p>metal.graba@gmail.com</p></a>
+                <a href="https://www.google.com/maps/place/Pje.+Godoy+Cruz,+Yerba+Buena,+Tucum%C3%A1n/@-26.8022476,-65.3062416,17z/data=!3m1!4b1!4m5!3m4!1s0x942242c3f2c903f7:0x3641597f33e6b276!8m2!3d-26.8022476!4d-65.3040529" target="_blank" class="flex py-1">
+                    <i class="material-icons footerIcons">location_on</i>
+                    <p>Pasaje Godoy Cruz 20, Yerba Buena, Tucumán</p>
+                </a>
+                <a href="#" class="flex py-1">
+                    <i class="material-icons footerIcons">local_phone</i>
+                    <p>3815045034</p>
+                </a>
+                <a href="#" target="_blank" class="flex py-1">
+                    <i class="material-icons footerIcons">email</i>
+                    <p>metal.graba@gmail.com</p>
+                </a>
             </div>
         </div>
     </footer>
