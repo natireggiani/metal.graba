@@ -14,4 +14,20 @@ menu.addEventListener('click', function(){
 
 
 
+//MODAL
 
+let control = document.querySelector('#show-modal')
+let modal = document.querySelector('.modal')
+let cruz = document.querySelector('.cruz')
+
+control.addEventListener('click', function(e){
+    e.preventDefault
+    modal.classList.remove('modal-hide')
+})
+
+cruz.addEventListener('click', function(e){
+    e.preventDefault
+    modal.classList.add('modal-hide')
+})
+
+// FIN MODAL
