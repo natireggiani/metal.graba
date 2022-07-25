@@ -28,4 +28,16 @@ cruz.addEventListener('click', function(){
     modal.classList.add('modal-hide')
 })
 
+let control2 =document.querySelector('#show-modal-contacto')
+let modal2 = document.querySelector('.modal2')
+let cruz2 = document.querySelector('.cruz2')
+control2.addEventListener('click', function(){
+    modal2.classList.remove('modal-hide')  
+})
+
+cruz2.addEventListener('click', function(){
+    modal2.classList.add('modal-hide')
+})
+
+
 // FIN MODAL

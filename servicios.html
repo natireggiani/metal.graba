@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class='nav-pages'>
-            <a href='index.html'><img src='imagenes/logo.png' class='logo' alt='logo'> </a>
+            <a href='index.html'><img src='imagenes/logo_gris.svg' class='logo' alt='logo'> </a>
             <div class='menu'><i class="fa fa-solid fa-bars"></i></div>
             <ul class='ul-nav none' id='lista-menu'>
                 <li><a href='quienesSomos.html'>Quienes somos</a></li>
@@ -32,22 +32,13 @@
                     <option value='hogar.html'>Hogar</option>
                     <option value='yerbas.html'>Yerbas</option>
                 </select></li>   
-                <li><a href='#'>Mayoristas</a></li>
+                <li id='show-modal'><a href='#'>Mayoristas</a></li>
                 <li><a href='servicios.html'class='color'>Servicios</a></li>
                 <li><a href='faqs.html'>Faqs</a></li>
-            <button class='boton-nav' id='show-modal'><a href='#'>Contacto</a></button>
+            <button class='boton-nav' id='show-modal-contacto'><a href='#'>Contacto</a></button>
             </ul>
         </nav>
-        <div class='modal modal-hide'>
-            <button class='text-modal cruz'>X</button>
-            <form>
-                <input type='name' placeholder="Nombre">
-                <input type='email' placeholder="nombre@email.com">
-                <textarea name='message'>Comentarios</textarea>
-                <button type="submit">Enviar</button>
-            </form>
-            
-        </div>
+        
     </header>
     <main>
         <div class="icons">
