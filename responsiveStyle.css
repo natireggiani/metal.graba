@@ -163,6 +163,10 @@
     line-height: 40px;
     width: 230px;
 }
+
+.div-general-card:hover{
+    transform: scale(1);
+}
 /* 
 .general-card-flex{
     max-width: 85%;

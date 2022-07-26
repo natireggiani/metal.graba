@@ -24,6 +24,7 @@ body{
     background: #D9D9D9;
     border-radius: 0px 0px 20px 20px;
     position: absolute;
+    z-index: 10000;
 }
 
 
@@ -36,6 +37,7 @@ body{
     background: #D9D9D9;
     border-radius: 0px 0px 20px 20px;
     position: absolute;
+    z-index: 10000;
 }
 
 .btn-modal{
@@ -127,7 +129,6 @@ input::placeholder {
     height: 117px;
     margin-left: 27px;
     margin-top: 30px;
-    color:rgba(199, 194, 194, 1);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
     background: #d9d9d9;
 }
@@ -155,7 +156,7 @@ input::placeholder {
     margin-top: 25px;
     margin-left:27px;
     color:rgba(199, 194, 194, 1);
-    border: 1px solid rgba(0,0,0,1);
+    /* border: 1px solid rgba(0,0,0,1); */
     
 }
 
@@ -314,6 +315,7 @@ nav{
     margin-bottom: 200px;
     margin-left: 95%;
     position: fixed;
+    z-index: 1000;
 }
 
 .icons img{
@@ -415,6 +417,11 @@ nav{
     height: 569px;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 1s;
+}
+
+.div-general-card:hover{
+    transform: scale(1.05);
 }
 
 .img-general-card{
@@ -494,7 +501,7 @@ nav{
     line-height: 19.36px;
     font-size: 16px;
     margin-left: 110px;
-    border: 1px solid rgba(0,0,0,1);
+    border: 1px solid transparent;
     margin-top: 40px;
 }
 

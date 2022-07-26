@@ -48,24 +48,24 @@
                     <p class='title-modal'>Solicitar cuenta mayorista</p>
                     <p class='text-modal'>Usted solicitará una cuenta mayorista para poder acceder a nuestra lista de productos mayoristas. Esta solicitud será revisada a la brevedad y será notificado por email cuando la verificación haya concluído.
                         es necesario que nos proporcione los siguientes datos</p>
-                    <form>
-                        <input type='name' placeholder="Nombre" class='input1'>
-                        <input type='name' placeholder="Apellido" class='input1'>
-                        <input type="email" placeholder="email@ejemplo.com" class='input2'>
-                        <input type='tel' placeholder="Teléfono" class='input2'>
-                        <input type='submit' value='Enviar'class='boton-modal'></input>
+                    <form action="https://formspree.io/f/mrgjnvje" method="POST">
+                        <input type="name" name="name" placeholder="Nombre" class='input1'>
+                        <input type="name" name="name" placeholder="Apellido" class='input1'>
+                        <input type="email"  name="email" placeholder="email@ejemplo.com" class='input2'>
+                        <input type="tel" name="tel" placeholder="Teléfono" class='input2'>
+                        <input type="submit" value='Enviar'class='boton-modal'></input>
                     </form>
                 </div>
                 <div class='modal2 modal-hide'>
                     <button class='btn-modal cruz2'>X</button>
                     <p class='title-modal'>Contacto</p>
                     <p class='text-modal2'>Déjanos tu consulta y responderemos a la brevedad:</p>
-                    <form>
-                        <input type='name' placeholder="Nombre" class='input1'>
-                        <input type='name' placeholder="Apellido" class='input1'>
-                        <input type="email" placeholder="email@ejemplo.com" class='input2'>
-                        <input type='tel' placeholder="Teléfono" class='input2'>
-                        <textarea class='mensaje' placeholder="Mensaje"></textarea>
+                    <form action="https://formspree.io/f/mnqweywd" method="POST">
+                        <input type="name" name="name" placeholder="Nombre" class='input1'>
+                        <input type="name" name="name" placeholder="Apellido" class='input1'>
+                        <input type="email" name="email" placeholder="email@ejemplo.com" class='input2'>
+                        <input type="tel" name="tel"placeholder="Teléfono" class='input2'>
+                        <textarea class="mensaje" name="message" placeholder="Mensaje"></textarea>
                         <input type='submit' value='Enviar'class='boton-modal'></input>
                     </form>
                 </div>
@@ -73,14 +73,13 @@
                     <img src='imagenes/logogrande.png' class='logo-grande' alt='logo'>
                 </div>
                 <div class="icons">
-                    <a href='#'><img src='imagenes/instagram.png'></a>
-                    <a href='#'><img src='imagenes/whatsapp.png'></a>
-                    <a href='#'><img src='imagenes/mail.png'></a>
+                    <a href='https://www.instagram.com/metal.graba/' target="blank"><img src='imagenes/instagram.png'></a>
+                    <a href="https://wa.me/543815045034/?" target="blank"><img src='imagenes/whatsapp.png'></a>
+                    <a href="mailto:metal.graba@gmail.com" target="blank"><img src='imagenes/mail.png'></a>
                 </div>
             </div>
         </div>
     </header>
-   
     <main class='main'>
         <section class='div-index-card'>
             <div class="index-card">
@@ -122,7 +121,7 @@
             
             <div class="flex border box-shadow rounded-xl w-full h-52 grid grid-cols-5 my-12">
                 <div class="col-span-2">
-                    <img src="imagenes/emprendimiento4.png" alt="" class="h-52 w-full object-cover rounded-xl">
+                    <img src="imagenes/emprendimiento4.png" alt="imagen" class="h-52 w-full object-cover rounded-xl">
                 </div>
                 <div class="flex flex-col justify-center col-span-3 mx-4">
                     <div class="ml-4"> 
@@ -131,7 +130,7 @@
                         <p class="py-1">Todos los precios incluyen el grabado</p>
                     </div>
                     <div class="flex justify-end">
-                        <button class="bg-red-600 py-2 px-20 rounded-3xl text-white">Consultar</button>
+                        <a href="https://wa.me/543815045034/?" target="blank"><button class="bg-red-600 py-2 px-20 rounded-3xl text-white hover:text-black">Consultar</button></a>
                     </div>
                 </div>
             </div>
