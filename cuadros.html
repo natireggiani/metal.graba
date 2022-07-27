@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Dancing+Script&family=Inter:wght@200;400&family=MonteCarlo&family=Quicksand:wght@300&family=Raleway:wght@100;300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="renzoStyles.css">
     <link rel="stylesheet" href="responsiveStyle.css">
 </head>
 <body>
@@ -32,12 +34,38 @@
                     <option value='hogar.html'>Hogar</option>
                     <option value='yerbas.html'>Yerbas</option>
                 </select></li>   
-                <li><a href='#'>Mayoristas</a></li>
+                <li id='show-modal'><a href='#'>Mayoristas</a></li>
                 <li><a href='servicios.html'>Servicios</a></li>
                 <li><a href='faqs.html'>Faqs</a></li>
-            <button class='boton-nav'><a href='#'>Contacto</a></button>
+            <button class='boton-nav' id='show-modal-contacto'><a href='#'>Contacto</a></button>
             </ul>
         </nav>
+        <div class='modal modal-hide'>
+            <button class='btn-modal cruz'>X</button>
+            <p class='title-modal'>Solicitar cuenta mayorista</p>
+            <p class='text-modal'>Usted solicitará una cuenta mayorista para poder acceder a nuestra lista de productos mayoristas. Esta solicitud será revisada a la brevedad y será notificado por email cuando la verificación haya concluído.
+                es necesario que nos proporcione los siguientes datos</p>
+            <form action="https://formspree.io/f/mrgjnvje" method="POST">
+                <input type="name" name="name" placeholder="Nombre" class='input1'>
+                <input type="name" name="name" placeholder="Apellido" class='input1'>
+                <input type="email"  name="email" placeholder="email@ejemplo.com" class='input2'>
+                <input type="tel" name="tel" placeholder="Teléfono" class='input2'>
+                <input type="submit" value='Enviar'class='boton-modal'></input>
+            </form>
+        </div>
+        <div class='modal2 modal-hide'>
+            <button class='btn-modal cruz2'>X</button>
+            <p class='title-modal'>Contacto</p>
+            <p class='text-modal2'>Déjanos tu consulta y responderemos a la brevedad:</p>
+            <form action="https://formspree.io/f/mnqweywd" method="POST">
+                <input type="name" name="name" placeholder="Nombre" class='input1'>
+                <input type="name" name="name" placeholder="Apellido" class='input1'>
+                <input type="email" name="email" placeholder="email@ejemplo.com" class='input2'>
+                <input type="tel" name="tel"placeholder="Teléfono" class='input2'>
+                <textarea class="mensaje" name="message" placeholder="Mensaje"></textarea>
+                <input type='submit' value='Enviar'class='boton-modal'></input>
+            </form>
+        </div>
     </header>
     <main>
         <h2 class='titulo-general-card'>Cuadros decorativos</h2>

@@ -47,11 +47,10 @@ body{
     margin-top: 24px;
     border: 2px solid black;
     border-radius: 50px;
+    line-height: 19.36px;
+    font-size: 16px;
 }
 
-.btn-modal:hover{
-    border:2px solid rgba(224, 2, 9, 1);
-}
 
 .title-modal{
     width: 368px;
