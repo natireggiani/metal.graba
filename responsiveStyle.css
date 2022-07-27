@@ -158,6 +158,11 @@
     transform: scale(1);
 }
 
+.carousel {
+    width: 350px;
+    margin:0 auto;
+}
+
 .titulo-general-card{
     margin-left: 50px;
     line-height: 40px;

@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Dancing+Script&family=Inter:wght@200;400&family=MonteCarlo&family=Quicksand:wght@300&family=Raleway:wght@100;300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="renzoStyles.css">
     <link rel="stylesheet" href="responsiveStyle.css">
@@ -134,8 +135,43 @@
                     </div>
                 </div>
             </div>
-
-
+        </section>
+        <section class='slider'>
+            <div class="carousel"
+                data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image"
+                    data-flickity-lazyload-src="imagenes/hogar1.png" alt="tulip" />
+                <div class='card-slide'>
+                <p class='texto-slide'>Porta capsula Nespresso </p>
+                <p class='precio-slide'>$1800</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image"
+                    data-flickity-lazyload-src="imagenes/hogar1.png" alt="tulip" />
+                <div class='card-slide'>
+                <p class='texto-slide'>Porta capsula Nespresso </p>
+                <p class='precio-slide'>$1800</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image"
+                    data-flickity-lazyload-src="imagenes/hogar1.png" alt="hogar" />
+                <div class='card-slide'>
+                <p class='texto-slide'>Porta capsula Nespresso </p>
+                <p class='precio-slide'>$1800</p>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image"
+                    data-flickity-lazyload-src="imagenes/hogar1.png" alt="tulip" />
+                <div class='card-slide'>
+                <p class='texto-slide'>Porta capsula Nespresso </p>
+                <p class='precio-slide'>$1800</p>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
@@ -177,6 +213,7 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://kit.fontawesome.com/d9bd3af9a7.js" crossorigin="anonymous"></script>
 </body>
 </html>
