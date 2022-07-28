@@ -392,20 +392,10 @@ nav{
 
 /* SLIDER */
 
-.slider{
-    margin-top: 80px;
-    margin-bottom: 50px;
-}
-.carousel{
-    background: white;
-    max-width: 60%;
-    margin:0 auto;
-}
-
 .carousel-cell {
     width: 270px;
     height: 380px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .carousel-cell-image {
@@ -446,6 +436,7 @@ nav{
     line-height: 18px;
     margin-top:15px;
 }
+
 
 /* fade in lazy loaded image */
 .carousel-cell-image.flickity-lazyloaded,

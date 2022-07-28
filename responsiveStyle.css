@@ -78,7 +78,6 @@
 }
 
 /* FIN MODAL */
-   
 
 .none{
     display: none;
@@ -158,8 +157,11 @@
     transform: scale(1);
 }
 
+.slider{
+    margin-bottom: 70px;
+}
 .carousel {
-    width: 350px;
+    max-width: 80%;
     margin:0 auto;
 }
 
