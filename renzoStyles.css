@@ -37,7 +37,40 @@
   transition: transform 1s;
 }
 
+/* Icons */
 
+.color-icons {
+  color: #C7C2C2;
+}
+
+/* Quienes Somos */
+
+.qs-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.qs-text {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.qs-text-bold {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
 /*Materialize */
 
