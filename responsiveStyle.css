@@ -3,9 +3,6 @@
 
 @media only screen and (max-width: 600px){
 
-.text-desc{
-    font-size: 16px;
-}
 /* MODAL */
 
 .modal{
@@ -109,7 +106,7 @@
 
 .submenu{
     font-size: 10px;
-    width: 65px;
+    width: 85px;
 }
     
 .boton-nav{
